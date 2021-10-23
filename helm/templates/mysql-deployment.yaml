@@ -24,7 +24,7 @@ spec:
         io.kompose.service: mysql
     spec:
       containers:
-        - image: mdsn/examapp1
+        - image: docker2706/examapp1
           name: mysql
           ports:
             - containerPort: 80
